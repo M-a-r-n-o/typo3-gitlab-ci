@@ -29,6 +29,7 @@ class ConfigLoader
                     'password' => getenv('DBPASS'),
                     'port' => '3306',
                     'user' => getenv('DBUSER'),
+                    'unix_socket' => getenv('DBSOCKET'),
                 ],
             ],
         ];
